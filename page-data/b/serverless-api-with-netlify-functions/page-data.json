@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-b-serverless-api-with-netlify-functions-mdx",
+    "path": "/b/serverless-api-with-netlify-functions/",
+    "result": {"pageContext":{"frontmatter":{"publish":"yes","title":"Running a serverless API using Netlify Functions","slug":"running-a-serverless-api-using-netlify-functions","date":"2020-11-29","author":"Adam Goth","preview":"Over the last few years, serverless applications have been growing in popularity. There are many use cases in which a serverless solution is more practical and more convenient than the traditional server solution. In this post, we'll look at setting up a serverless Express.js API using Netlify functions.","categories":"testcats1, testcats2","tags":"testtags1,testtags2","keywords":"one, two"}}},
+    "staticQueryHashes": []}

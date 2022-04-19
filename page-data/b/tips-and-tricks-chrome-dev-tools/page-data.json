@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-b-tips-and-tricks-chrome-dev-tools-mdx",
+    "path": "/b/tips-and-tricks-chrome-dev-tools/",
+    "result": {"pageContext":{"frontmatter":{"publish":"no","title":"Tips and Tricks: Chrome Dev Tools","slug":"chrome-dev-tools-tips-and-tricks","date":"2020-10-29","author":"Adam Goth","preview":"I recently spent some time diving into all that Chrome's developer tools have to offer. It's quite impressive what the Chrome team has built to make the lives of web developers easier. In this post, I will share a handful of the nifty things I learned.","categories":"testcats1, testcats2","tags":"testtags1, testtags2","keywords":"one, two"}}},
+    "staticQueryHashes": []}

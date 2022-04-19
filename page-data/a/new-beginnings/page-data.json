@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-a-new-beginnings-index-mdx",
+    "path": "/a/new-beginnings/",
+    "result": {"pageContext":{"frontmatter":{"publish":"yes","title":"New Beginnings","date":"2015-05-28T22:40:32.169Z","description":"This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.","slug":"New-Beginnings-today","categories":"testcats1, testcats2","tags":"testtags1,testtags2","keywords":"one, two"}}},
+    "staticQueryHashes": []}

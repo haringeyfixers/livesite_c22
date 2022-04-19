@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-tags-js",
+    "path": "/tags/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"Haringey Fixers"}},"allMdx":{"group":[{"fieldValue":"CSS, Animation","totalCount":2},{"fieldValue":"testtags1, testtags2","totalCount":3},{"fieldValue":"testtags1,testtags2","totalCount":4}]}},"pageContext":{}},
+    "staticQueryHashes": []}

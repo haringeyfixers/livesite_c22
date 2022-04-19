@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-a-hello-world-index-mdx",
+    "path": "/a/hello-world/",
+    "result": {"pageContext":{"frontmatter":{"publish":"yes","title":"Hello World","date":"2015-05-01T22:12:03.284Z","author":"me","description":"Hello World","slug":"Hello-World2015","categories":"testcats1, testcats2","tags":"testtags1,testtags2","keywords":"one, two"}}},
+    "staticQueryHashes": []}

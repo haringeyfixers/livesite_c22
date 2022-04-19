@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-b-building-a-blog-with-gatsby-and-mdx-mdx",
+    "path": "/b/building-a-blog-with-gatsby-and-mdx/",
+    "result": {"pageContext":{"frontmatter":{"publish":"no","title":"Building with Gatsby and MDX","slug":"building-with-gatsby-and-mdx","date":"2020-08-26","author":"Adam Goth","preview":"I've long considered trying out blogging. Now, I'm finally giving it a go. Here's how I built my blog using Gatsby and MDX.","categories":"testcats1, testcats2","tags":"testtags1, testtags2","keywords":"one, two"}}},
+    "staticQueryHashes": []}

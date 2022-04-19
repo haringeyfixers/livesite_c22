@@ -1,0 +1,109 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-emotion="css "></style><style data-emotion="css-global o6gwfi">html{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;box-sizing:border-box;-webkit-text-size-adjust:100%;}*,*::before,*::after{box-sizing:inherit;}strong,b{font-weight:700;}body{margin:0;color:rgba(0, 0, 0, 0.87);font-family:"Roboto","Helvetica","Arial",sans-serif;font-weight:400;font-size:1rem;line-height:1.5;letter-spacing:0.00938em;background-color:#fff;}@media print{body{background-color:#fff;}}body::backdrop{background-color:#fff;}</style><meta data-react-helmet="true" name="viewport" content="initial-scale=1, width=device-width"/><meta name="generator" content="Gatsby 4.11.3"/><title data-react-helmet="true"></title><link data-react-helmet="true" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;display=swap" rel="stylesheet"/><style data-styled="" data-styled-version="5.3.5"></style><style>.gatsby-image-wrapper{position:relative;overflow:hidden}.gatsby-image-wrapper picture.object-fit-polyfill{position:static!important}.gatsby-image-wrapper img{bottom:0;height:100%;left:0;margin:0;max-width:none;padding:0;position:absolute;right:0;top:0;width:100%;object-fit:cover}.gatsby-image-wrapper [data-main-image]{opacity:0;transform:translateZ(0);transition:opacity .25s linear;will-change:opacity}.gatsby-image-wrapper-constrained{display:inline-block;vertical-align:top}</style><noscript><style>.gatsby-image-wrapper noscript [data-main-image]{opacity:1!important}.gatsby-image-wrapper [data-placeholder-image]{opacity:0!important}</style></noscript><script type="module">const e="undefined"!=typeof HTMLImageElement&&"loading"in HTMLImageElement.prototype;e&&document.body.addEventListener("load",(function(e){if(void 0===e.target.dataset.mainImage)return;if(void 0===e.target.dataset.gatsbyImageSsr)return;const t=e.target;let a=null,n=t;for(;null===a&&n;)void 0!==n.parentNode.dataset.gatsbyImageWrapper&&(a=n.parentNode),n=n.parentNode;const o=a.querySelector("[data-placeholder-image]"),r=new Image;r.src=t.currentSrc,r.decode().catch((()=>{})).then((()=>{t.style.opacity=1,o&&(o.style.opacity=0,o.style.transition="opacity 500ms linear")}))}),!0);</script><style type="text/css">
+    .custom-class.before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translateX(-100%);
+      padding-right: 4px;
+    }
+    .custom-class.after {
+      display: inline-block;
+      padding-left: 4px;
+    }
+    h1 .custom-class svg,
+    h2 .custom-class svg,
+    h3 .custom-class svg,
+    h4 .custom-class svg,
+    h5 .custom-class svg,
+    h6 .custom-class svg {
+      visibility: hidden;
+    }
+    h1:hover .custom-class svg,
+    h2:hover .custom-class svg,
+    h3:hover .custom-class svg,
+    h4:hover .custom-class svg,
+    h5:hover .custom-class svg,
+    h6:hover .custom-class svg,
+    h1 .custom-class:focus svg,
+    h2 .custom-class:focus svg,
+    h3 .custom-class:focus svg,
+    h4 .custom-class:focus svg,
+    h5 .custom-class:focus svg,
+    h6 .custom-class:focus svg {
+      visibility: visible;
+    }
+  </style><script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      var hash = window.decodeURI(location.hash.replace('#', ''))
+      if (hash !== '') {
+        var element = document.getElementById(hash)
+        if (element) {
+          var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
+          var clientTop = document.documentElement.clientTop || document.body.clientTop || 0
+          var offset = element.getBoundingClientRect().top + scrollTop - clientTop
+          // Wait for the browser to finish rendering before scrolling.
+          setTimeout((function() {
+            window.scrollTo(0, offset - 100)
+          }), 0)
+        }
+      }
+    })
+  </script><link as="script" rel="preload" href="/webpack-runtime-57b6d46803b8cd06bed8.js"/><link as="script" rel="preload" href="/framework-1551f0820f71ffc92df3.js"/><link as="script" rel="preload" href="/app-14217d3ed318d68d2e42.js"/><link as="script" rel="preload" href="/component---src-pages-b-tips-and-tricks-chrome-dev-tools-mdx-333ce1dc9c2ee9065616.js"/><link as="fetch" rel="preload" href="/page-data/b/tips-and-tricks-chrome-dev-tools/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><p>I recently spent some time diving into all that Chrome’s developer tools have to
+offer. It’s quite impressive what the Chrome team has built to make the lives of
+web developers easier. In this post, I will share a handful of the nifty things
+I learned.</p><p>Let’s jump in.</p><h3>Toggle the console drawer</h3><p>Most people are probably familiar with the
+<a href="https://developers.google.com/web/tools/chrome-devtools/console/reference">Console</a>
+tab. But you can open a console drawer from almost any other tab as well. This
+can easily be toggled by simply hitting the <code class="language-text">esc</code> key.</p><p><img src="https://media.giphy.com/media/C4nvLNDUimi984DvGl/giphy.gif" alt="escape key console toggle"/></p><h3>Toggle all nested elements</h3><p>Clicking an element within the Elements tab will expand that particular element
+and show you any children elements belonging to it. Sometimes, elements can be
+nested several layers deep. By holding the <code class="language-text">option</code> key while clicking an
+element, you can expand <strong>all</strong> children nested within that element.</p><p><img src="https://media.giphy.com/media/UCsgJYqUDCVUEg0q63/giphy.gif" alt="toggle all nested elements"/></p><h3>Scroll element into view</h3><p>Sometimes you may see an element with your Elements tab and wonder where exactly
+that element lives on the page. Usually, you can see the element get highlighted
+on the page as you hover it in the Elements tab, but sometimes the element is
+not within the page view. If you right-click the element, you can choose the
+“Scroll into view” option and Chrome will do just that.</p><p><img src="https://media.giphy.com/media/JK74tuyVCAyDtLcXHq/giphy.gif" alt="scroll into view"/></p><h3>Toggle an element’s visibility</h3><p>For whatever reason, you may want to toggle whether an element on your page can
+be seen or not. This can easily be done by simply hitting the <code class="language-text">h</code> key while the
+element is selected in the Elements tab.</p><p><img src="https://media.giphy.com/media/t0ylr2sHarOQA8xuuF/giphy.gif" alt="h to toggle hidden element"/></p><h3>Converting color formats</h3><p>When viewing an element’s CSS <code class="language-text">color</code> property in dev tools, you can toggle
+between RGB, HSL, and hex color formats by holding the <code class="language-text">shift</code> key and clicking
+the color square. This can be convenient in various situations where you may
+find a color in one format, but need it in another.</p><p><img src="https://media.giphy.com/media/yZQQLiyyxVdkBjHLoO/giphy.gif" alt="coverting color format"/></p><h3>Access recently selected elements in console</h3><p>Sometimes we need access to DOM elements in the console so that we can inspect
+various properties or behavior. Chrome provides a quick shortcut to access these
+elements within the console. If you type <code class="language-text">$0</code> into the console, you will get the
+element you most recently interacted with in the Elements tab. If you type in
+<code class="language-text">$1</code>, you will get the second most recent element you interacted with, and so
+forth…</p><p><img src="https://media.giphy.com/media/Fbpduv3lSKZX6eu1N5/giphy.gif" alt="most recent elements console access"/></p><h3>Run commands</h3><p>By pressing <code class="language-text">command</code> + <code class="language-text">shift</code> + <code class="language-text">p</code>, you can search dev tools for nearly
+anything and quickly
+<a href="https://developers.google.com/web/tools/chrome-devtools/command-menu">run various commands</a>.
+This gives you extremely quick access to many features of the dev tools. Give
+this one a try, you may find something you didn’t know existed.</p><p><img src="https://media.giphy.com/media/diz6pCLIjt8O1hLNkK/giphy.gif" alt="run commands"/></p><h3>Blackbox scripts</h3><p>Ever get stuck debugging in some random runtime file that you never wanted to be
+in?
+<a href="https://developer.chrome.com/devtools/docs/blackboxing">Blackboxing scripts</a> is
+your new friend. If there is a script that you do not want your debugger to go
+into, you can right-click it and select “Blackbox script”. Easy enough.</p><p><img src="https://media.giphy.com/media/0QiT8USJ5inJFmxEF1/giphy.gif" alt="blackbox scripts"/></p><h3>Conditional breakpoints</h3><p>If you have used the debugger in the dev tools before, you are likely aware that
+you can set breakpoints to pause your code execution. In addition to your
+standard breakpoint, Chrome allows you to also set
+<a href="https://developers.google.com/web/tools/chrome-devtools/javascript/breakpoints">conditional breakpoints</a>.
+This allows you to specify that a variable must have a certain value in order
+for the breakpoint to hit. This can be very convenient when you are trying to
+debug an issue where a particular value must be present. To set a conditional
+breakpoint, right-click the line you want to set it at and click “Add
+conditional breakpoint…”</p><p><img src="https://media.giphy.com/media/n7oOV9shQmzJTDwkNt/giphy.gif" alt="conditional breakpoint"/></p><h3>Networking calls: Who called what?</h3><p>Sometimes we see network calls in the
+<a href="https://developers.google.com/web/tools/chrome-devtools/network/reference">Network</a>
+tab and we’re not sure where they came from. Chrome has a neat trick that shows
+you if one network call was initiated by another call and if that network call
+in turn has dependencies of its own. To take a look, simply hold <code class="language-text">shift</code> while
+hovering a network call. Initiators are colored green and dependencies are
+colored red.</p><p><img src="https://media.giphy.com/media/fH8XjzbnTUDJGcHAJ4/giphy.gif" alt="networking calls"/></p><h3>Select multiple networking request types</h3><p>If you are familiar with the Network tab, you are likely aware that you can
+select a certain type of network request to filter your results, e.g. XHR. But
+maybe you are interested in both XHR and JS requests. By holding <code class="language-text">command</code> and
+clicking different request types, you can select multiple types of requests at
+once.</p><p><img src="https://media.giphy.com/media/C4SHhZBSYBKkMv4wrx/giphy.gif" alt="multiple network request types"/></p><h3>Wrapping up</h3><p>The Chrome Dev Tools are seriously impressive. These tips are just the tip of
+the iceberg. The deeper you dive into what features are available to you, the
+more amazed you will be. The
+<a href="https://developers.google.com/web/tools/chrome-devtools">documentation</a> is a
+great reference. If you are more of a visual learner, I would recommend the
+<a href="https://frontendmasters.com/courses/chrome-dev-tools/">Mastering Chrome Dev Tools</a>
+on Frontend Masters by <a href="https://twitter.com/jkup">Jon Kuperman</a>.</p><p>Thanks for reading, I hope you learned something!</p><p>If you enjoyed this post or found it useful, please consider
+<a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.adamgoth.com%2Ftips-and-tricks-chrome-dev-tools">sharing it on Twitter</a>.</p><p>If you want to stay updated on new posts,
+<a href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fpublish.twitter.com%2F%3FbuttonType%3DFollowButton%26query%3Dhttps%253A%252F%252Ftwitter.com%252Finit_adam%26widget%3DButton&amp;ref_src=twsrc%5Etfw&amp;region=follow_link&amp;screen_name=init_adam&amp;tw_p=followbutton">follow me on Twitter</a>.</p><p>If you have any questions, comments, or just want to say hello,
+<a href="https://twitter.com/messages/compose?recipient_id=33618361">send me a message</a>.</p><p>Thanks for reading!</p></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/b/tips-and-tricks-chrome-dev-tools/";window.___webpackCompilationHash="4e2f5bc829d58c24e2a9";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-d8e9fe2438665be6e366.js"],"app":["/app-14217d3ed318d68d2e42.js"],"component---src-components-sz-tpl-page-tag-js":["/component---src-components-sz-tpl-page-tag-js-a1ed8bbe0627fe5547d0.js"],"component---src-pages-404-js":["/component---src-pages-404-js-334e9f943f02db1518b4.js"],"component---src-pages-a-hello-world-index-mdx":["/component---src-pages-a-hello-world-index-mdx-beb1bc52d4fbc4b916c4.js"],"component---src-pages-a-my-second-post-index-mdx":["/component---src-pages-a-my-second-post-index-mdx-57197b2e5477f99a809d.js"],"component---src-pages-a-new-beginnings-index-mdx":["/component---src-pages-a-new-beginnings-index-mdx-72424eba1abfa72352bf.js"],"component---src-pages-about-js":["/component---src-pages-about-js-4a38f3d29d1eaa1b9a72.js"],"component---src-pages-b-building-a-blog-with-gatsby-and-mdx-mdx":["/component---src-pages-b-building-a-blog-with-gatsby-and-mdx-mdx-079018f81559a742c563.js"],"component---src-pages-b-serverless-api-with-netlify-functions-mdx":["/component---src-pages-b-serverless-api-with-netlify-functions-mdx-57469846c1f2707521ce.js"],"component---src-pages-b-sz-caption-js":[],"component---src-pages-b-tips-and-tricks-chrome-dev-tools-mdx":["/component---src-pages-b-tips-and-tricks-chrome-dev-tools-mdx-333ce1dc9c2ee9065616.js"],"component---src-pages-b-venue-broadwater-farm-mdx":["/component---src-pages-b-venue-broadwater-farm-mdx-f7f8229095df9deec911.js"],"component---src-pages-b-venue-lordship-hub-mdx":["/component---src-pages-b-venue-lordship-hub-mdx-7dbece011fa33b93e4ce.js"],"component---src-pages-c-policies-mdx":["/component---src-pages-c-policies-mdx-34748af47df15e996687.js"],"component---src-pages-form-22-js":["/component---src-pages-form-22-js-9192903209dc3f72ef01.js"],"component---src-pages-formik-22-js":["/component---src-pages-formik-22-js-435a06a755eb4d654627.js"],"component---src-pages-index-js":["/component---src-pages-index-js-f713b14ef8e86bd1547b.js"],"component---src-pages-szmdxposts-2-js":["/component---src-pages-szmdxposts-2-js-9249a64066b361b2ad60.js"],"component---src-pages-szmdxposts-js":["/component---src-pages-szmdxposts-js-df5fe8bdc53bb27759c6.js"],"component---src-pages-tags-js":["/component---src-pages-tags-js-001f2603dad78a64c76b.js"],"component---src-pages-tmpmenu-js":["/component---src-pages-tmpmenu-js-c2977ecb9a1ccb1f7886.js"],"component---src-pages-tpl-mdx-posts-js":["/component---src-pages-tpl-mdx-posts-js-0b353b4dd7b1e80acd27.js"],"component---src-pages-what-is-a-repair-cafe-js":["/component---src-pages-what-is-a-repair-cafe-js-ac8217e7ec41e5c107c5.js"]};/*]]>*/</script><script src="/polyfill-d8e9fe2438665be6e366.js" nomodule=""></script><script src="/component---src-pages-b-tips-and-tricks-chrome-dev-tools-mdx-333ce1dc9c2ee9065616.js" async=""></script><script src="/app-14217d3ed318d68d2e42.js" async=""></script><script src="/framework-1551f0820f71ffc92df3.js" async=""></script><script src="/webpack-runtime-57b6d46803b8cd06bed8.js" async=""></script></body></html>
